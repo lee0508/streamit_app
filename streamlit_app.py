@@ -18,4 +18,4 @@ with st.sidebar:
 
 # image = Image.open('https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg')
 
-st.image(https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg, caption='Sunrise by the mountains')
+st.markdown('https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg')
