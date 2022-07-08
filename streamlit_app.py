@@ -1,6 +1,7 @@
 #streamlit_app.p
 import os
 import streamlit as st
+from PIL import Image
 
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
@@ -14,3 +15,7 @@ with st.sidebar:
         "Choose a shipping method",
         ("Standard (5-15 days)", "Express (2-5 days)")
     )
+
+image = Image.open('https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg')
+
+st.image(image, caption='Sunrise by the mountains')
