@@ -16,6 +16,6 @@ with st.sidebar:
         ("Standard (5-15 days)", "Express (2-5 days)")
     )
 
-image = Image.open('https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg')
+# image = Image.open('https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg, caption='Sunrise by the mountains')
