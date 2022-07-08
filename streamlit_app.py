@@ -18,4 +18,4 @@ with st.sidebar:
 
 # image = Image.open('https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg')
 
-st.markdown("[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)")
+st.markdown("[![Foo](https://images.pexels.com/photos/12499889/pexels-photo-12499889.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load)](http://google.com.au/)")
